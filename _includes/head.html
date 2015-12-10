@@ -9,4 +9,17 @@
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <script>
+  if (window.location.href.indexOf('http://henry-y-chen.github.io') === 0) {
+    window.location.href = 'http://metalcvexamples.com';
+  }
+  <link rel="canonical" href="http://metalcvexamples.com"/>
+</script>
+	<script>
+	  if (window.location.href.indexOf('http://henry-y-chen.github.io') === 0) {
+	    window.location.href = 'http://metalcvexamples.com{{ page.url }}';
+	  }
+	</script>
+	<link rel="canonical" href="http://metalcvexamples.com{{ page.url }}"/>
 </head>
