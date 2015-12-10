@@ -10,7 +10,7 @@ title: Metal CV Examples
 email: 
 description: Henry's notes on computer vision using Metal.
 baseurl: "/metal-cv-examples" # the subpath of your site, e.g. /blog
-url: "http://www.metalcvexamples.com" # the base hostname & protocol for your site
+url: "http://metalcvexamples.com" # the base hostname & protocol for your site
 twitter_username: 
 github_username: Henry-Y-Chen
 
