@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA09839A1C1E0681000A2A3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0983991C1E0681000A2A3D /* AppDelegate.swift */; };
+		BA09839C1C1E0681000A2A3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA09839B1C1E0681000A2A3D /* ViewController.swift */; };
+		BA09839F1C1E0681000A2A3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA09839D1C1E0681000A2A3D /* Main.storyboard */; };
+		BA0983A11C1E0681000A2A3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA0983A01C1E0681000A2A3D /* Assets.xcassets */; };
+		BA0983A41C1E0681000A2A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0983A21C1E0681000A2A3D /* LaunchScreen.storyboard */; };
+		BA0983AC1C1E14A1000A2A3D /* Lena.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0983AB1C1E14A1000A2A3D /* Lena.png */; };
+		BA0983AE1C1E150B000A2A3D /* MetalImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0983AD1C1E150B000A2A3D /* MetalImageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA0983961C1E0681000A2A3D /* MetalImageViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalImageViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0983991C1E0681000A2A3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA09839B1C1E0681000A2A3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA09839E1C1E0681000A2A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA0983A01C1E0681000A2A3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA0983A31C1E0681000A2A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA0983A51C1E0681000A2A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA0983AB1C1E14A1000A2A3D /* Lena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lena.png; sourceTree = "<group>"; };
+		BA0983AD1C1E150B000A2A3D /* MetalImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalImageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA0983931C1E0681000A2A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA09838D1C1E0681000A2A3D = {
+			isa = PBXGroup;
+			children = (
+				BA0983981C1E0681000A2A3D /* MetalImageViewer */,
+				BA0983971C1E0681000A2A3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA0983971C1E0681000A2A3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA0983961C1E0681000A2A3D /* MetalImageViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA0983981C1E0681000A2A3D /* MetalImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				BA0983991C1E0681000A2A3D /* AppDelegate.swift */,
+				BA09839B1C1E0681000A2A3D /* ViewController.swift */,
+				BA0983AD1C1E150B000A2A3D /* MetalImageView.swift */,
+				BA09839D1C1E0681000A2A3D /* Main.storyboard */,
+				BA0983AB1C1E14A1000A2A3D /* Lena.png */,
+				BA0983A01C1E0681000A2A3D /* Assets.xcassets */,
+				BA0983A21C1E0681000A2A3D /* LaunchScreen.storyboard */,
+				BA0983A51C1E0681000A2A3D /* Info.plist */,
+			);
+			path = MetalImageViewer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA0983951C1E0681000A2A3D /* MetalImageViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA0983A81C1E0681000A2A3D /* Build configuration list for PBXNativeTarget "MetalImageViewer" */;
+			buildPhases = (
+				BA0983921C1E0681000A2A3D /* Sources */,
+				BA0983931C1E0681000A2A3D /* Frameworks */,
+				BA0983941C1E0681000A2A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetalImageViewer;
+			productName = MetalImageViewer;
+			productReference = BA0983961C1E0681000A2A3D /* MetalImageViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA09838E1C1E0681000A2A3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Henry Chen";
+				TargetAttributes = {
+					BA0983951C1E0681000A2A3D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = QE5UYW6U2K;
+					};
+				};
+			};
+			buildConfigurationList = BA0983911C1E0681000A2A3D /* Build configuration list for PBXProject "MetalImageViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA09838D1C1E0681000A2A3D;
+			productRefGroup = BA0983971C1E0681000A2A3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA0983951C1E0681000A2A3D /* MetalImageViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA0983941C1E0681000A2A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0983A41C1E0681000A2A3D /* LaunchScreen.storyboard in Resources */,
+				BA0983A11C1E0681000A2A3D /* Assets.xcassets in Resources */,
+				BA09839F1C1E0681000A2A3D /* Main.storyboard in Resources */,
+				BA0983AC1C1E14A1000A2A3D /* Lena.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA0983921C1E0681000A2A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA09839C1C1E0681000A2A3D /* ViewController.swift in Sources */,
+				BA0983AE1C1E150B000A2A3D /* MetalImageView.swift in Sources */,
+				BA09839A1C1E0681000A2A3D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA09839D1C1E0681000A2A3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA09839E1C1E0681000A2A3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA0983A21C1E0681000A2A3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA0983A31C1E0681000A2A3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA0983A61C1E0681000A2A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA0983A71C1E0681000A2A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA0983A91C1E0681000A2A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MetalImageViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrychen.MetalImageViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA0983AA1C1E0681000A2A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MetalImageViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrychen.MetalImageViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA0983911C1E0681000A2A3D /* Build configuration list for PBXProject "MetalImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0983A61C1E0681000A2A3D /* Debug */,
+				BA0983A71C1E0681000A2A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA0983A81C1E0681000A2A3D /* Build configuration list for PBXNativeTarget "MetalImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0983A91C1E0681000A2A3D /* Debug */,
+				BA0983AA1C1E0681000A2A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA09838E1C1E0681000A2A3D /* Project object */;
+}
