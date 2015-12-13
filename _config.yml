@@ -17,3 +17,4 @@ github_username: Henry-Y-Chen
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
