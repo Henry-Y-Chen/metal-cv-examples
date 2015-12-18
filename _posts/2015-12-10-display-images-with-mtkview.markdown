@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Display images with MTKView"
+title:  "Display Images with MTKView"
 date:   2015-12-13 13:21:21 -0800
 categories: metal-cv-basics
 ---
